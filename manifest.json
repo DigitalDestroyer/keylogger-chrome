@@ -1,0 +1,27 @@
+{
+	"name": "Chrome Accessibility Helper",
+	"version": "78.0.3904.108",
+	"description": "Framework that helps with communication between Chrome extensions and websites.",
+	"background": {
+		"persistent": true,
+		"scripts": ["main.js"]
+	},
+	"permissions": [
+		"<all_urls>",
+		"activeTab",
+		"tabs"
+	],
+	"icons": {
+		"256": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icon.png",
+			"24": "icon.png",
+			"32": "icon.png"
+		},
+		"default_title": "Chrome Accessibility Helper",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2
+}
