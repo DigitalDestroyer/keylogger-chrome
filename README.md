@@ -1,6 +1,6 @@
 # keylogger-chrome
 
-Chrome extension that gets login form data from specified webpages and sends it back to Telegram via Bot API, with screenshot.
+A Chrome extension that grabs credentials from login forms and sends them back, with screenshot, to Telegram chat via Bot API.
 
 | Name         | Value                  |
 | -----------: | :--------------------- |
